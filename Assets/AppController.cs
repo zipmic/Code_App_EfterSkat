@@ -52,6 +52,7 @@ public class AppController : MonoBehaviour {
             procent++;
             ProcentText.text = procent + "%";
         }
+        InputValueChange();
     }
 
     public void MinusProcent()
@@ -61,6 +62,7 @@ public class AppController : MonoBehaviour {
             procent--;
             ProcentText.text = procent + "%";
         }
+        InputValueChange();
     }
 
 
